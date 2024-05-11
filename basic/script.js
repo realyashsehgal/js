@@ -25,3 +25,21 @@ function checkdate()
 }
 x = 50;
 console.log(x);
+let arr = [54,12,13,9,53,7];
+document.getElementById("array").innerHTML = arr;
+function num_sort(){
+    let sorted = arr.sort(function(a,b) {return a - b});
+    document.getElementById("numsorted").innerHTML = sorted;
+}
+function str_sort(){
+    let sorted = arr.sort();
+    document.getElementById("strsorted").innerHTML = sorted;
+}
+function verygood()
+{
+    alert("very good you are smarter than i though");
+}
+function dumb()
+{
+    alert("idiot look at the first number of these number idiot");
+}
