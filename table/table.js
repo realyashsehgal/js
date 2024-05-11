@@ -1,6 +1,4 @@
-
 function tables() {
-    
     var name = document.getElementById("namee").value;
     var id = document.getElementById("idd").value;
 
