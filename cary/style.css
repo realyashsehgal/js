@@ -1,0 +1,11 @@
+#int{
+    border: 1px solid black;
+    width: 400px;
+    height: fit-content;
+}
+.dude
+{
+    height: 90px;
+    width: 90px;
+    float: right;
+}
